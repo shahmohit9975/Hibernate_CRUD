@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Display_employee</servlet-name>
+  	<display-name>Display_employee</display-name>
+  	<description></description>
+  	<servlet-class>dao.Display_employee</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Edit_emp</servlet-name>
+  	<display-name>Edit_emp</display-name>
+  	<description></description>
+  	<servlet-class>dao.Edit_emp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Display_employee</servlet-name>
+  	<url-pattern>/Display_employee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Edit_emp</servlet-name>
+  	<url-pattern>/Edit_emp</url-pattern>
+  </servlet-mapping>
+</web-app>
